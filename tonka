@@ -63,7 +63,7 @@ local Button = Tab:CreateButton({
         NotifyLib.prompt('tonka Silent - this has a resolver enabled', 'Loading..', 5)
         NotifyLib.prompt('tonka Silent - key is c', 'Loading..', 5)
         NotifyLib.prompt('tonka Silent - Leaked By tonka', 'Loading..', 5)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/minoww/silent/main/silent"))() 
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/minoww/tonka/main/tonka'))() 
     end,
  })
 
