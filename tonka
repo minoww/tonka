@@ -52,18 +52,7 @@ local Button = Tab:CreateButton({
  local Button = Tab:CreateButton({
     Name = "tonka silent",
     Callback = function()
-        local NotifyLib = loadstring(game:HttpGet("https://rentry.co/farzadaddy/raw"))()
-        NotifyLib.prompt('has resolver', 'Loading..', 2)
-       
-        print("tonka")
-        print("Timer : 0")
-        print("loaded")
-        wait(4)
-        local NotifyLib = loadstring(game:HttpGet("https://rentry.co/farzaddaddy1/raw"))()
-        NotifyLib.prompt('tonka Silent - this has a resolver enabled', 'Loading..', 5)
-        NotifyLib.prompt('tonka Silent - key is c', 'Loading..', 5)
-        NotifyLib.prompt('tonka Silent - Leaked By tonka', 'Loading..', 5)
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/minoww/tonka/main/tonka'))() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/minoww/tonka/main/tonka'))() 
     end,
  })
 
